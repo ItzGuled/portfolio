@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(141,165,177,255);
+  padding: 13px;
+}
+
+.guled img{
+width: 30%;
+background-attachment: fixed;
+
+}
+.guled {
+background-image: url(../images/mountain.jpeg);
+background-size: cover;
+background-attachment: fixed;
+background-position: 90%;
+padding: 20px;
+display: flex;
+
+}
+
+header h1 {
+color: white;
+}
+
+header nav {
+  margin: 10px ;
+}
+
+header nav ul {
+  justify-content: space-between; 
+}
+
+header nav ul li {
+  display: inline;
+  list-style: none;
+  }
+
+header nav ul li a {
+    padding: 20px 20px;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    }
+
+section h2 {
+  color:rgba(141,165,177,255);
+  font-size: 30px
+}
+
+section p {
+  color:rgba(141,165,177,255);
+}
+
+
+footer {
+  background-color: rgba(141,165,177,255);
+  display: flex;
+  justify-content: space-between;
+  }
+
+footer h2 {
+  color: white;
+  
+}
+
+footer a {
+  color: white;
+  text-align: center;
+  display: inline;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: bolder;
+  padding: 20px;
+}
