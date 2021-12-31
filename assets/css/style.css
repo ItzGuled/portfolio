@@ -92,6 +92,7 @@ margin: auto;
   width: 40%;
 }
 
+
 .projects h2 {
   margin:20px;
   padding: 10px;
@@ -103,27 +104,46 @@ margin: auto;
 }
 
 
-.flex-container {
-  display: flex;
- 
-}
 
 .box img {
+height:70%;
 width:20%;
 border-width: 2.5px;
 border-style: solid;
 border-color:rgba(141,165,177,255);
 margin:20px;
 min-width: 300px;
+max-width:300px;
 }
 
-.box {
-  padding: 10px;
-  text-align: center;
+.box1 img{
+border-width: 2.5px;
+  border-style: solid;
+  border-color:rgba(141,165,177,255);
+  margin:20px;
+  min-width: 500px;
+  max-width: 500px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 90%;
+  width: 50%;
+  }
+
+
+.column {
+  justify-content: center;
+   display: flex;
+  
+}
+
+.column2 {
+  justify-content: center;
+  display: flex;
+  
 }
 
 footer {
-  
   background-color: rgba(141,165,177,255);
   display: flex;
   justify-content:space-between;
