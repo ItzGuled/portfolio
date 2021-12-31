@@ -80,7 +80,8 @@ margin: auto;
 
 .about p {
   text-align: center;
-  padding: 10px 80px 30px 80px;
+  padding: 10px 100px 10px 100px;
+  
 }
 .about h2 {
   padding: 20px;
@@ -91,31 +92,35 @@ margin: auto;
   width: 40%;
 }
 
-
-.work{ 
-text-align: center;
-margin: 40px;
-flex-wrap: wrap;
-}
-
-.work h2 {
+.projects h2 {
   margin:20px;
-  padding: 20px;
+  padding: 10px;
   text-align:center;
   border-bottom: solid 2px rgba(141,165,177,255);
   padding-bottom:5px;
   margin: 0 auto;
   width: 40%;
 }
-.work img {
+
+
+.flex-container {
+  display: flex;
+ 
+}
+
+.box img {
 width:20%;
 border-width: 2.5px;
 border-style: solid;
 border-color:rgba(141,165,177,255);
 margin:20px;
+min-width: 300px;
 }
 
-
+.box {
+  padding: 10px;
+  text-align: center;
+}
 
 footer {
   
