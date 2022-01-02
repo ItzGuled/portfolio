@@ -84,7 +84,7 @@ header nav ul li a {
 
 
 .about {
-  display: flex;
+  
   flex-wrap: wrap;
 }
 .about p {
