@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: rgba(141,165,177,255);
+  --secondary-color: rgba(0,0,0,1);
+  --tertiary-color: rgba(92,130,151);
+}
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -12,12 +17,14 @@ header {
   display: flex;
   justify-content: space-between;
   flex: wrap;
-  background-color: rgba(141,165,177,255);
+  background-color: var(--primary-color);
   padding: 13px;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 9999;
+ 
+ 
 }
 
 .guled img{
@@ -43,11 +50,13 @@ align-items: flex-start;
 
 header h1 {
 color: white;
-text-shadow: 0 0 10px rgba(0,0,0,1);
+text-shadow: 0 0 10px var(--secondary-color);
+font-size: 33px;
+
 }
 
 header nav {
-  margin: 10px ;
+  margin: 11px ;
   
 }
 
@@ -58,30 +67,23 @@ header nav ul {
   list-style: none;
   }
 
-header nav ul li {
-  display: inline;
-  list-style: none;
-  }
 
 header nav ul li a {
-    padding: 20px 20px;
-    font-size: larger;
+    padding: 20px 25px;
+    
     color: white;
     text-decoration: none;
-    text-shadow: 0 0 10px rgba(0,0,0,1);
+    text-shadow: 0 0 10px var(--secondary-color);
+    
   }
 
   header nav ul li a:hover {
-  background-color: rgba(92,130,151);
+  background-color: var(--tertiary-color);
   border-radius: 25px;
   }
 
-section h2 {
-  color:rgba(141,165,177,255);
-  font-size: 30px
-}
-.about {
 
+.about {
   display: flex;
   flex-wrap: wrap;
 }
@@ -91,7 +93,7 @@ section h2 {
   margin: 40px;
   text-align: center;
   padding: 30px 100px 30px 100px;
-  background-color:rgba(141,165,177,255);
+  background-color:var(--primary-color);
   border-radius: 25px;
   display: flex;
   flex-wrap: wrap;
@@ -107,23 +109,28 @@ margin: auto;
 
 .about h2 {
   padding: 20px;
+  margin:20px;
   text-align:center;
-  border-bottom: solid 2px rgba(141,165,177,255);
+  border-bottom: solid 2px var(--primary-color);
   padding-bottom:15px;
   margin: 0 auto;
   width: 40%;
+  font-size: 30px;
+  color:var(--primary-color);
+  font-size: 30px;
 }
-
 
 
 .projects h2 {
   margin:20px;
   padding: 20px;
   text-align:center;
-  border-bottom: solid 2px rgba(141,165,177,255);
-  padding-bottom:20px;
+  border-bottom: solid 2px var(--primary-color);
+  padding-bottom:15px;
   margin: 0 auto;
   width: 40%;
+  color:var(--primary-color);
+  font-size: 30px;
 }
 
 .box img {
@@ -131,7 +138,7 @@ height:80%;
 width:30%;
 border-width: 3px;
 border-style: solid;
-border-color:rgba(141,165,177,255);
+border-color:var(--primary-color);
 margin:20px;
 min-width: 300px;
 max-width:300px;
@@ -142,6 +149,7 @@ max-width:300px;
   justify-content: center;
   display: flex;
   position: relative;
+  
   
 }
 
@@ -154,7 +162,7 @@ max-width:300px;
 .title {
   color: white;
   font-size: 17px;
-  background-color: rgba(141,165,177,255);
+  background-color: var(--primary-color);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -171,14 +179,13 @@ max-width:300px;
   width: 50%;
   border-width: 3px;
   border-style: solid;
-  border-color:rgba(141,165,177,255);
+  border-color:var(--primary-color);
   margin:40px;
   min-width: 500px;
   max-width: 500px;
-  flex: 1 50%;
   display: flex;
   flex-wrap: wrap;
-  
+  justify-content: center;
 }
 
 .column {
@@ -195,7 +202,6 @@ max-width:300px;
 .column2 {
   justify-content: center;
   display: flex;
-  
   flex-wrap: wrap;
   flex: 1 50%;
 }
@@ -205,7 +211,7 @@ max-width:300px;
 }
 
 .contact {
-  background-color: rgba(141,165,177,255);
+  background-color: var(--primary-color);
   display: flex;
   justify-content:space-between;
   justify-content: space-around;
@@ -223,14 +229,15 @@ max-width:300px;
 }
 
 .contact a:hover {
-  background-color: rgba(92,130,151);
+  background-color: var(--tertiary-color);
   border-radius: 25px;
   }
 
 
+
  
 @media screen and (max-width: 575px) {
-  header {
+  .guled {
     width: 100%;
   }
 
