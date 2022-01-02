@@ -39,7 +39,7 @@ text-align: center;
 
 header h1 {
 color: white;
-text-shadow: 0 0 10px rgba(0,0,0,);
+text-shadow: 0 0 10px rgba(0,0,0,1.5);
 }
 
 header nav {
@@ -99,7 +99,10 @@ margin: auto;
   width: 40%;
 }
 
-
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .projects h2 {
   margin:20px;
@@ -120,7 +123,6 @@ border-color:rgba(141,165,177,255);
 margin:20px;
 min-width: 300px;
 max-width:300px;
-
 }
 
 .box1 {
@@ -129,7 +131,13 @@ max-width:300px;
   position: relative;
 }
 
-.run h3 {
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+.title {
   color: white;
   font-size: 17px;
   background-color: rgba(141,165,177,255);
@@ -195,5 +203,7 @@ footer a {
   padding: 20px;
 }
 
-
-
+footer a:hover {
+  background-color: rgba(92,130,151);
+  border-radius: 25px;
+  }
