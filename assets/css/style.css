@@ -66,10 +66,16 @@ section h2 {
   font-size: 30px
 }
 
-section p {
-  color:rgba(141,165,177,255);
+.about p {
+  color:white;
   font-size:larger;
+  margin: 40px;
+  text-align: center;
+  padding: 30px 100px 30px 100px;
+  background-color:rgba(141,165,177,255);
+  border-radius: 25px;
 }
+
 
 .guled h2 {
 color:white;
@@ -78,11 +84,8 @@ font-weight: bolder;
 margin: auto;
 }
 
-.about p {
-  text-align: center;
-  padding: 10px 100px 10px 100px;
-  
-}
+
+
 .about h2 {
   padding: 20px;
   text-align:center;
@@ -92,22 +95,19 @@ margin: auto;
   width: 40%;
 }
 
-
 .projects h2 {
   margin:20px;
-  padding: 10px;
+  padding: 20px;
   text-align:center;
   border-bottom: solid 2px rgba(141,165,177,255);
-  padding-bottom:5px;
+  padding-bottom:20px;
   margin: 0 auto;
   width: 40%;
 }
 
-
-
 .box img {
-height:70%;
-width:20%;
+height:80%;
+width:30%;
 border-width: 2.5px;
 border-style: solid;
 border-color:rgba(141,165,177,255);
@@ -116,31 +116,34 @@ min-width: 300px;
 max-width:300px;
 }
 
+.box1 {
+  justify-content: center;
+  display: flex;
+
+}
 .box1 img{
-border-width: 2.5px;
+  height: 80%;
+  width: 50%;
+  border-width: 2.5px;
   border-style: solid;
   border-color:rgba(141,165,177,255);
-  margin:20px;
+  margin:40px;
   min-width: 500px;
   max-width: 500px;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  height: 90%;
-  width: 50%;
-  }
 
+  }
 
 .column {
   justify-content: center;
-   display: flex;
+  display: flex;
+  
   
 }
 
 .column2 {
   justify-content: center;
   display: flex;
-  
+  margin:40px;
 }
 
 footer {
@@ -148,8 +151,8 @@ footer {
   display: flex;
   justify-content:space-between;
   justify-content: space-around;
-  
-  }
+ 
+}
 
 footer a {
   color: white;
