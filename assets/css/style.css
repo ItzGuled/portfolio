@@ -61,6 +61,11 @@ header nav ul li a {
     text-decoration: none;
     }
 
+  header nav ul li a:hover {
+  background-color: rgba(92,130,151);
+  border-radius: 25px;
+  }
+
 section h2 {
   color:rgba(141,165,177,255);
   font-size: 30px
@@ -76,15 +81,12 @@ section h2 {
   border-radius: 25px;
 }
 
-
 .guled h2 {
 color:white;
 font-size: larger;
 font-weight: bolder;
 margin: auto;
 }
-
-
 
 .about h2 {
   padding: 20px;
@@ -108,7 +110,7 @@ margin: auto;
 .box img {
 height:80%;
 width:30%;
-border-width: 2.5px;
+border-width: 3px;
 border-style: solid;
 border-color:rgba(141,165,177,255);
 margin:20px;
@@ -119,31 +121,41 @@ max-width:300px;
 .box1 {
   justify-content: center;
   display: flex;
-
 }
-.box1 img{
+
+.box1 img:hover {
+  opacity: 0.6;
+ 
+}
+
+.box1 img {
   height: 80%;
   width: 50%;
-  border-width: 2.5px;
+  border-width: 3px;
   border-style: solid;
   border-color:rgba(141,165,177,255);
   margin:40px;
   min-width: 500px;
   max-width: 500px;
-
-  }
+}
 
 .column {
   justify-content: center;
   display: flex;
-  
-  
+}
+
+.column img:hover {
+  opacity: 0.6;
 }
 
 .column2 {
   justify-content: center;
   display: flex;
   margin:40px;
+}
+
+.column2 img:hover {
+  opacity: 0.5;
 }
 
 footer {
@@ -162,3 +174,5 @@ footer a {
   font-size: larger;
   padding: 20px;
 }
+
+
