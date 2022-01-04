@@ -5,16 +5,15 @@
 }
 
 :root {
-  --primary-color: rgba(141,165,177,255);
-  --secondary-color: rgba(0,0,0,1);
-  --tertiary-color: rgba(92,130,151);
+  --primary-color: rgba(141, 165, 177, 255);
+  --secondary-color: rgba(0, 0, 0, 1);
+  --tertiary-color: rgba(92, 130, 151);
 }
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 header {
-  
   display: flex;
   justify-content: space-between;
   flex: wrap;
@@ -25,34 +24,34 @@ header {
   width: 100%;
   z-index: 9999;
   position: -webkit-sticky;
- }
+}
 
-.guled img{
-border-radius: 50%;
-width: 300px;
-height: 250px;
-margin: 15px;
+.guled img {
+  border-radius: 50%;
+  width: 300px;
+  height: 250px;
+  margin: 15px;
 }
 
 .guled {
-background-image: url(../images/mountain.jpeg);
-padding: 90px;
-background-size: cover;
-background-attachment: fixed;
-background-position: center;
-width: 100%;
-height: 400px;
-background-size: 100% 33%;
-text-align: center;
-flex-wrap: wrap;
-align-items: flex-start;
+  background-image: url(../images/mountain.jpeg);
+  padding: 90px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  background-size: 100% 33%;
+  text-align: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 header h1 {
-color: white;
-text-shadow: 0 0 10px var(--secondary-color);
-font-size: 33px;
-margin: 0;
+  color: white;
+  text-shadow: 0 0 10px var(--secondary-color);
+  font-size: 33px;
+  margin: 0;
 }
 
 header a {
@@ -60,8 +59,7 @@ header a {
 }
 
 header nav {
-  margin: 11px ;
-  
+  margin: 11px;
 }
 
 header nav ul {
@@ -69,99 +67,89 @@ header nav ul {
   align-items: center;
   flex-wrap: wrap;
   list-style: none;
-  }
-
+}
 
 header nav ul li a {
-    padding: 20px 25px;
-    color: white;
-    text-decoration: none;
-    text-shadow: 0 0 10px var(--secondary-color);
-    
-  }
+  padding: 20px 25px;
+  color: white;
+  text-decoration: none;
+  text-shadow: 0 0 10px var(--secondary-color);
+}
 
-  header nav ul li a:hover {
+header nav ul li a:hover {
   background-color: var(--tertiary-color);
   border-radius: 25px;
-  }
-
+}
 
 .about {
   display: flex;
   flex-wrap: wrap;
-  
 }
 .about p {
-  color:white;
-  font-size:larger;
+  color: white;
+  font-size: larger;
   margin: 40px;
   text-align: center;
   padding: 30px 100px 30px 100px;
-  background-color:var(--primary-color);
+  background-color: var(--primary-color);
   border-radius: 25px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  
 }
 
 .guled h2 {
-color:white;
-font-size: larger;
-font-weight: bolder;
-margin: auto;
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
+  margin: auto;
 }
 
 .about h2 {
   padding: 20px;
-  margin:20px;
-  text-align:center;
+  margin: 20px;
+  text-align: center;
   border-bottom: solid 2px var(--primary-color);
-  padding-bottom:15px;
+  padding-bottom: 15px;
   margin: 0 auto;
   width: 40%;
   font-size: 30px;
-  color:var(--primary-color);
+  color: var(--primary-color);
   font-size: 30px;
 }
 
-
 .projects h2 {
-  margin:20px;
+  margin: 20px;
   padding: 20px;
-  text-align:center;
+  text-align: center;
   border-bottom: solid 2px var(--primary-color);
-  padding-bottom:15px;
+  padding-bottom: 15px;
   margin: 0 auto;
   width: 40%;
-  color:var(--primary-color);
+  color: var(--primary-color);
   font-size: 30px;
 }
 
 .box img {
-height:80%;
-width:30%;
-border-width: 3px;
-border-style: solid;
-border-color:var(--primary-color);
-margin:20px;
-min-width: 300px;
-max-width:300px;
-
+  height: 80%;
+  width: 30%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: var(--primary-color);
+  margin: 20px;
+  min-width: 300px;
+  max-width: 300px;
 }
 
 .box1 {
   justify-content: center;
   display: flex;
   position: relative;
-  
-  
 }
 
-.flex{
+.flex {
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .title {
@@ -173,19 +161,19 @@ max-width:300px;
   left: 0;
   display: flex;
   flex-wrap: wrap;
- }
+}
 
 .box1 img:hover {
   opacity: 0.6;
- }
+}
 
 .box1 img {
   height: 80%;
   width: 50%;
   border-width: 3px;
   border-style: solid;
-  border-color:var(--primary-color);
-  margin:40px;
+  border-color: var(--primary-color);
+  margin: 40px;
   min-width: 500px;
   max-width: 500px;
   display: flex;
@@ -218,10 +206,9 @@ max-width:300px;
 .contact {
   background-color: var(--primary-color);
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   justify-content: space-around;
   flex-wrap: wrap;
- 
 }
 
 .contact a {
@@ -236,11 +223,8 @@ max-width:300px;
 .contact a:hover {
   background-color: var(--tertiary-color);
   border-radius: 25px;
-  }
+}
 
-
-
- 
 @media screen and (max-width: 575px) {
   .guled {
     width: 100%;
@@ -250,12 +234,21 @@ max-width:300px;
     width: 95%;
   }
 
+  nav {
+    width:40%;
+    
+  }
+
+
+  
   .about p {
     width: 100%;
+    padding: 40px 20px;
   }
 
   .flex {
     flex: 0 100%;
+    
   }
 
   .contact {
