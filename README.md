@@ -2,7 +2,7 @@
 
 ## The Motivation
 
-My motivation here for this project ios to highlight projects that Im proud of and give a glimpse of who I am personally and professionally. Also, its to be able to put myself out there and have communcation with people who are interested in my work.
+My motivation for this project is to highlight projects that Im proud of and give a glimpse of who I am personally and professionally. Also, its to be able to put myself out there and have communcation with people who are interested in my work.
 
 ## Screenshot
 ![Horiseon](assets/images/screenshot.PNG)
