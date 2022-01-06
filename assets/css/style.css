@@ -8,6 +8,7 @@
   --primary-color: rgba(141, 165, 177, 255);
   --secondary-color: rgba(0, 0, 0, 1);
   --tertiary-color: rgba(92, 130, 151);
+  --quaternary-color: white;
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -77,8 +78,9 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  background-color: var(--tertiary-color);
-  border-radius: 25px;
+  text-decoration-line: underline;
+  text-decoration-color: var(--quaternary-color);
+  text-decoration-thickness: 2px;
 }
 
 .about {
@@ -239,7 +241,11 @@ header nav ul li a:hover {
     
   }
 
-
+  .guled img {
+    justify-content: center;
+    padding:20px;
+  
+  }
   
   .about p {
     width: 100%;
