@@ -149,6 +149,10 @@ header nav ul li a:hover {
   margin: 20px;
   min-width: 300px;
   max-width: 300px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:250px;
+  height:250px;
 }
 
 .box1 {
