@@ -54,7 +54,7 @@ header {
 }
 
 header h1 {
-  color: white;
+  color: var(--quaternary-color);
   text-shadow: 0 0 10px var(--secondary-color);
   font-size: 33px;
   margin: 0;
