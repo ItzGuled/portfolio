@@ -14,9 +14,3 @@ The main issue I dealt with on this challenge was getting the flexbox to act as 
 ## Link
 https://itzguled.github.io/portfolio/
 
-## Rescources
-https://fonts.google.com/specimen/Montserrat
-
-https://images.pexels.com/photos/9467294/pexels-photo-9467294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
-
-https://placeholder.com/
